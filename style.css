@@ -1,71 +1,60 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: blue;
+color: #333;
 }
-
 header {
-  background-color: white;
-  color: black;
-  padding: 10px 15px;
-  text-align: center;
+color: pink;
+padding: 10px 15px;
+text-align: center;
 }
-
 #meal-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 15px;
+display: grid;
+grid-template-columns: 1fr;
+gap: 20px;
+padding: 15px;
 }
-
 .meal {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  background: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
+border: 1px solid #ddd;
+border-radius: 10px;
+padding: 15px;
+background: pink;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-align: center;
 }
-
 .meal img {
 width: 50%;
 border-radius: 10px;
 }
-
 .meal a {
-  display: inline-block;
-  margin-top: 10px;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px 15px;
-  background-color:#FF0000;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  transition: background-color 0.3s ease;
-
+display: inline-block;
+margin-top: 10px;
+color: white;
+font-weight: bold;
+text-decoration: none;
+padding: 10px 15px;
+background-color:#FF0000;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s ease;
 }
 .meal a:hover {
-  background-color: #cc0000; /* Darker red on hover */
+background-color: #cc0000;
 }
 .meal ul {
-  list-style-type: none; /* Removes the bullets */
-  padding: 0; /* Removes default left padding */
-  margin: 0; /* Removes default margin */
+list-style-type: none;
+padding: 0;
+margin: 0;
 }
-
-
 @media (min-width: 768px) {
-  #meal-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
+#meal-container {
+grid-template-columns: repeat(2, 1fr);
 }
-
+}
 @media (min-width: 1024px) {
-  #meal-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
+#meal-container {
+grid-template-columns: repeat(3, 1fr);
+}
 }
