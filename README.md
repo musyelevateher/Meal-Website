@@ -54,7 +54,7 @@ cd Meal-Website
  ##Usage 
 
  -The CSS file (`style.css`) includes various sections with classes that define the layout and styles for the web page.
- -To make any adjustments,edit the `styles.css` file, and the changes will reflect on the web page upon refreshing the browser.
+ -To make any adjustments,edit the `style.css` file, and the changes will reflect on the web page upon refreshing the browser.
  - All Chicken meals will be dynamically rendered using Javascript "main.js".
 
  ## KEY HTML Structure
