@@ -22,7 +22,7 @@ This project is built using HTML, CSS and Javascript.Fetching data from API whic
 
 ## Live-demo
 - Check out the live Demo of the project: [Live Demo] https://meal-website-gkr2.onrender.com
--  A live video using loom: link to loom 
+-  A live video using loom: link to loom  https://www.loom.com/share/25770b3d6e874186b5a1de63de1f4048?sid=9d486c6d-ab88-4df2-9a10-4f0a43866535
 
 ## Technologies Used
 
